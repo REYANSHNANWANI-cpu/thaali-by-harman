@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-maroon: #7C2D12;
+    --primary-saffron: #D97706;
+    --primary-gold: #EAB308;
+    --bg-cream: #FAF6F0;
+    --card-cream: #FFFDF9;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAF6F0;
+    color: #292524;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Rozha One', 'Cinzel', Georgia, serif;
+  }
+
+  .font-devanagari {
+    font-family: 'Yatra One', cursive, sans-serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #D97706;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B45309;
+}
+
+/* Indian ornamental pattern background */
+.bg-mandala {
+  background-color: #7C2D12;
+  background-image: radial-gradient(#F59E0B 0.75px, transparent 0.75px), radial-gradient(#F59E0B 0.75px, #7C2D12 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.05;
+}
+
+.bg-cream-pattern {
+  background-color: #FAF5EB;
+  background-image: radial-gradient(#E5D5C5 0.8px, transparent 0.8px);
+  background-size: 24px 24px;
+}
+
+/* Pulsing veg indicator */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

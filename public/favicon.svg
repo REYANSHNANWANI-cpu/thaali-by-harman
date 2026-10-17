@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <circle cx="50" cy="50" r="46" fill="#7C2D12" stroke="#EAB308" stroke-width="4"/>
+  <circle cx="50" cy="50" r="38" fill="#FDF8EE" stroke="#D97706" stroke-width="2" stroke-dasharray="3 3"/>
+  
+  <!-- Outer Vati Bowls on Thali -->
+  <circle cx="50" cy="22" r="9" fill="#EA580C" opacity="0.9"/>
+  <circle cx="72" cy="34" r="9" fill="#EAB308" opacity="0.9"/>
+  <circle cx="76" cy="62" r="9" fill="#16A34A" opacity="0.9"/>
+  <circle cx="58" cy="80" r="8" fill="#D97706" opacity="0.9"/>
+  <circle cx="36" cy="78" r="8" fill="#B45309" opacity="0.9"/>
+  <circle cx="24" cy="56" r="9" fill="#F59E0B" opacity="0.9"/>
+  <circle cx="28" cy="32" r="9" fill="#DC2626" opacity="0.9"/>
+  
+  <!-- Center Roti/Rice & Pure Veg Emblem -->
+  <circle cx="48" cy="48" r="13" fill="#FED7AA" stroke="#D97706" stroke-width="1.5"/>
+  <rect x="42" y="42" width="12" height="12" rx="2" fill="#FFFFFF" stroke="#15803D" stroke-width="1.5"/>
+  <circle cx="48" cy="48" r="3.5" fill="#15803D"/>
+</svg>
